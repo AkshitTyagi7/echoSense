@@ -1,0 +1,97 @@
+{"intents":[
+ {
+  "tag": 1,
+  "patterns": ["567, Dispatch, requesting backup for a felony traffic stop on the southbound lane of Main Street at 3rd. Plate number: Alpha-Tango-Charlie-9-7-5."],
+  "responses":[ "Backup requested for felony traffic stop on southbound Main Street at 3rd, Alpha-Tango-Charlie-9-7-5. ETA for backup?\" 11:17"]
+ },
+ {
+  "tag": 2,
+  "patterns": ["512, ETA 2 minutes."],
+  "responses": ["512, ETA 2 minutes, 11:17"]
+ },
+ {
+  "tag": 3,
+  "patterns": ["567, Dispatch, suspect is exiting the vehicle, appears to be armed"],
+  "responses": ["11:19"]
+ },
+ {
+  "tag": 4,
+  "patterns": ["512, On scene"],
+  "responses": ["11:19"]
+ },
+ {
+  "tag": 5,
+  "patterns": ["567, Dispatch, suspect is in custody"],
+  "responses": ["567, suspect in custody, time is 11:22. Any further assistance required?"]
+ },
+ {
+  "tag": 6,
+  "patterns": ["Negative, Code 4"],
+  "responses": ["567. All units, 567 is code 4, no further assistance required. 11:23"]
+ },
+ {
+  "tag": 7,
+  "patterns":[ " suspect is on foot, in pursuit"],
+  "responses": ["location?"]
+ },
+ {
+  "tag": 8,
+  "patterns": ["Dispatch, suspect in custody"],
+  "responses": ["suspect in custody. 11:28 Any further assistance required?"]
+ },
+ {
+  "tag": 9,
+  "patterns": ["Negative, Dispatch, scene is secured."],
+  "responses": ["on scene, 11:28"]
+ },
+ {
+  "tag": 10,
+  "patterns": ["Dispatch, Clear scene. Transporting suspect.  "],
+  "responses": ["Clear"]
+ },
+ {
+  "tag": 11,
+  "patterns": ["Dispatch, we have a suspect on foot, running east on Oak Street, white male, 5'10'', black hoodie, blue jeans. Suspect is wanted in connection with a robbery at the bank on 5th and Main"],
+  "responses": ["foot pursuit east on oak, can you give cross street?"]
+ },
+ {
+  "tag": 12,
+  "patterns": ["13th Ave"],
+  "responses": ["foot pursuit eastbound from  Oak and 13th, 12:10"]
+ },
+ {
+  "tag": 13,
+  "patterns": ["Copy, Dispatch. We are continuing eastbound on Oak Street, approaching 10th. Suspect is still on foot and picking up speed"],
+  "responses": ["Copy, 324. Additional units responding"]
+ },
+ {
+  "tag": 14,
+  "patterns": ["Dispatch, suspect has surrendered. We have him in custody"],
+  "responses": ["Suspect in custody. All units, be advised, suspect is in custody. Time is 12:19."]
+ },
+ {
+  "tag": 15,
+  "patterns": [", Dispatch, we're bringing the suspect back to the station for processing"],
+  "responses": ["Copy, 324. Suspect en route to station for processing. All units, be advised, suspect is in custody and en route to station for processing. Time is 12:31.\""]
+ },
+ {
+  "tag": 16,
+  "patterns": [" Dispatch, suspect appears to have sustained an injury. Requesting EMS at Maple and 23rd"],
+  "responses":[ "EMS has been dispatched to Maple and 23rd. EMS is en route. Suspect is in custody"]
+ },
+ {
+  "tag": 17,
+  "patterns": ["Copy, Dispatch. Will wait here until EMS arrives"],
+  "responses": ["324 at Maple and 23rd, 14:27"]
+ },
+ {
+  "tag": 18,
+  "patterns": ["324 to Med 21, we're on the corner of Maple and 23rd. Suspect appears to have a head injury"],
+  "responses":[ "Copy, 324. We're approaching the scene. ETA 4 minutes"]
+ },
+ {
+  "tag": 19,
+  "patterns":["Dispatch, 324. Requesting a police supervisor and forensics on scene. Information on possible assault victim at the suspect's apartment. Over"],
+  "responses": ["Copy, 324, 1450"]
+ }
+]}
